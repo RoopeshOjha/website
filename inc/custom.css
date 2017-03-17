@@ -1,0 +1,17 @@
+
+/*	ASD Custom CSS							*/
+/*	Name: custom.css						*/
+
+/* Custom Styles */
+
+@import url(amegotopnav.css);
+
+h2 {
+    color: #4461AD;
+}
+
+#twocol {
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+}

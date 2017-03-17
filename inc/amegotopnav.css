@@ -1,0 +1,79 @@
+/*	AMEGO Top Nav CSS						*/
+/*	Based on ASD Top Nav CSS					*/
+/*	Name: topnav.css						*/
+
+/* Top Navigation
+---------------------- */
+
+#amegotopnav {
+    background: #4461AD;
+    width: 952px;
+}
+
+/* shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/ */
+#amegotopnav:before,
+#amegotopnav:after {
+	content: "";
+	display: table;
+}
+
+#amegotopnav:after {
+	clear: both;
+}
+
+#amegotopnav ul {
+	padding: 0;
+}
+
+#amegotopnav li {
+	background: #4461AD;
+	border-right: 1px solid #000;
+	float: left;
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	width: 158px;
+}
+
+#amegotopnav li:nth-child(6) {
+	border: none;
+	width: 157px;
+}
+
+#amegotopnav a {
+	display: block;
+	padding: 10px 0;
+	color: #fff;
+	background: none;
+	font-size: 14px;
+	line-height: 1;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+#amegotopnav li a:hover,
+#amegotopnav li a:active {
+	background: #31509D;
+}
+
+/* Content
+--------------- */
+
+#content {
+	background: #fff;
+	color: #000;
+	text-align: left;
+	padding: 1em;
+	width: 920px;
+}
+
+/* shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/ */
+#content:before,
+#content:after {
+	content: "";
+	display: table;
+}
+
+#content:after {
+	clear: both;
+}
